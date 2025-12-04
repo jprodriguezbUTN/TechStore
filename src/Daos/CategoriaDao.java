@@ -22,7 +22,7 @@ public class CategoriaDao {
     private final String password;
 
     public CategoriaDao() {
-        this.url = "jdbc:mysql://localhost:3306/TechStore?useSSL=false&serverTimezone=UTC";
+        this.url = "jdbc:mysql://localhost:3306/BancoApp?useSSL=false&serverTimezone=UTC";
         this.user = "Admin";
         this.password = "Admin123@";
     }
